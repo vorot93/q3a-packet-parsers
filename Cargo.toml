@@ -1,0 +1,16 @@
+[package]
+name = "q3a"
+version = "0.1.0"
+authors = ["Artem Vorotnikov <artem@vorotnikov.me>"]
+description = "Models and parsers for Quake III Arena network protocol"
+repository = "https://github.com/vorot93/q3a-packet-parsers"
+keywords = ["game", "games", "q3a", "quake3"]
+license = "MPL-2.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+byteorder = "1"
+hex-literal = "0.4"
+maplit = "1"
+nom = "7"
